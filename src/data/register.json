@@ -10,11 +10,16 @@
       "email": "asliddinabijonov04@gmail.com"
     }
   ],
-  "comments": [
+  "user": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "user",
+      "name": "user",
+      "password": "123321",
+      "instagram": "asliddin_nabijon0v",
+      "telegram": "asliddin_nabijonov",
+      "phone": "+998908324567",
+      "email": "asliddinabijonov04@gmail.com"
     }
   ],
   "profile": {

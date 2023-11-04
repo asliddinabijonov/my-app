@@ -43,16 +43,8 @@ export default () => {
     >
       <br />
       <form onSubmit={formik.handleSubmit}>
-        <Paper
-          elevation={24}
-          sx={{
-            width: { md: 500, sm: 500, xs: 300 },
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "column",
-            borderRadius: 2,
-          }}
+        <Box
+          
         >
           <Typography variant="h5" sx={{ padding: 3 }}>
             Login
@@ -79,7 +71,7 @@ export default () => {
             Submit
           </Button>
           <br />
-        </Paper>
+        </Box>
       </form>
     </Box>
   );
