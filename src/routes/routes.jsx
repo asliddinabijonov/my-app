@@ -2,17 +2,19 @@ import React from "react";
 import { Navigate } from "react-router-dom";
 import Home from "../containers/Home";
 import Contact from "../pages/Contact";
-import Login from "../pages/Login";
 import Auth from "../containers/Auth";
-import Register from "../pages/Register";
-import Menyu from "../pages/Menyu";
+import Quation from "../pages/Quation";
+import Kirish from "../pages/Kirish";
+import Royhatdan_otish from "../pages/Royxatdan_otish"
+
 
 export const home = [
   {
     element: <Home />,
     children: [
-      { path: "/", element: <Register /> },
-      { path: "/menu", element: <Menyu /> },
+      { path: "/", element: <Quation /> },
+      { path: "/kirish", element: <Kirish /> },
+      { path: "/royhatdan_otish", element: <Royhatdan_otish /> },
       { path: "/contact", element: <Contact /> },
     ],
   },
@@ -22,8 +24,6 @@ export const loginerror = [
   {
     element: <Auth />,
     children: [
-      { path: "/", element: <Login /> },
-      { path: "/login", element: <Login /> },
       { path: "*", element: <Navigate to="/login" /> },
     ],
   },

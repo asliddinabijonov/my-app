@@ -2,7 +2,7 @@ import React from 'react'
 
 export default  () => {
   return (
-    <div>Menu</div>
+    <div>Ro'yhatdan o'tish</div>
   )
 }
 
