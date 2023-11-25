@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default  () => {
+export default () => {
   return (
-    <div>Ro'yhatdan o'tish</div>
-  )
-}
-
+    <>
+      <form action=""></form>
+    </>
+  );
+};
