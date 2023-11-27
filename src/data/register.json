@@ -13,13 +13,24 @@
   "users": [
     {
       "id": 1,
-      "title": "user",
-      "name": "user",
-      "password": "123321",
-      "instagram": "asliddin_nabijon0v",
-      "telegram": "asliddin_nabijonov",
-      "phone": "+998908324567",
-      "email": "asliddinabijonov04@gmail.com"
+      "login": "user",
+      "firstname": "user",
+      "lastname": "123321",
+      "password": "asliddin_nabijon0v"
+    },
+    {
+      "id": 2,
+      "login": "user",
+      "firstname": "user",
+      "lastname": "123321",
+      "password": "asliddin_nabijon0v"
+    },
+    {
+      "id": 3,
+      "login": "user",
+      "firstname": "user",
+      "lastname": "123321",
+      "password": "asliddin_nabijon0v"
     }
   ],
   "profile": {

@@ -6,6 +6,7 @@ import Auth from "../containers/Auth";
 import Quation from "../pages/Quation";
 import Kirish from "../pages/Kirish";
 import Royhatdan_otish from "../pages/Royxatdan_otish"
+import Admin from "../pages/Admin";
 
 
 export const home = [
@@ -14,6 +15,7 @@ export const home = [
     children: [
       { path: "/", element: <Quation /> },
       { path: "/kirish", element: <Kirish /> },
+      { path: "/admin", element: <Admin /> },
       { path: "/royhatdan_otish", element: <Royhatdan_otish /> },
       { path: "/contact", element: <Contact /> },
     ],
